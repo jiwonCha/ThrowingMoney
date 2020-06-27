@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active:
+    - local
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp    
+  redis:
+    host: 127.0.0.1
+    port: 6379
