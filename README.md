@@ -72,7 +72,7 @@ Reference : target/openapi.json
    > ```/v1/api/service```
    
    > Body
-   >```json
+   >```
    > RequestInfo{
    > targetMoney	integer($int32)
    > headCount	integer($int32)
